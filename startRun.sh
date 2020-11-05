@@ -3,8 +3,8 @@ nohup ./geth --datadir signer1/data \
 --rpc \
 --rpcapi db,eth,net,web3,personal \
 --cache=2048 \
---port 18024 \
---rpcport 20636 \
+--port 20636 \
+--rpcport 20638 \
 --rpcaddr "0.0.0.0" \
 --rpccorsdomain "*" \
 --networkid 121 \
